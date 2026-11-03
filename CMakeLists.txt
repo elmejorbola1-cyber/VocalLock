@@ -23,8 +23,8 @@ juce_add_plugin(VocalLock
     PRODUCT_NAME "VocalLock")
 
 target_sources(VocalLock PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginEditor.cpp)
+    PluginProcessor.cpp
+    PluginEditor.cpp)
 
 target_compile_definitions(VocalLock PUBLIC
     JUCE_WEB_BROWSER=0
